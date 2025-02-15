@@ -1,0 +1,16 @@
+body {
+  background-image: url(/img/vecteezy_colorful-flower-field-with-warm-sunlight-and-blue-sky_22776816.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.login-form {
+  border-style: inset;
+}
