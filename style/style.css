@@ -7,10 +7,12 @@ body {
 
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
+  padding: 10% 0 0;
   margin: auto;
 }
 
 .login-form {
-  border-style: inset;
+  border-width: 3px;
+  border-style: hidden solid;
+  border-color: #039BE5;;
 }
