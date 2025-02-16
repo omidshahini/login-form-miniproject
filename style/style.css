@@ -1,3 +1,9 @@
+
+* {
+  box-sizing: border-box;
+  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   background-image: url(/img/vecteezy_colorful-flower-field-with-warm-sunlight-and-blue-sky_22776816.jpg);
   background-position: center top;
@@ -20,8 +26,7 @@ body {
 }
 
 .login-form input {
-  font-family: "Roboto", sans-serif;
-  margin: 25px 40px 15px;
+  margin: 25px 45px 15px;
   background: #EEEEEE;
   width: 60%;
   padding: 5px;
@@ -31,7 +36,6 @@ body {
 }
 
 .login-form button {
-  font-family: 'Roboto', 'sans-serif';
   background-color: #4DD0E1;
   margin: 10px 95px;
   width: 50px;
