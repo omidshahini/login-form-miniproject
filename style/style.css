@@ -1,7 +1,10 @@
+@font-face {
+  font-family: Orbitron Regular;
+  src: url(/fonts/ttf/Orbitron-Regular.ttf) format("TrueType");
+}
 
 * {
   box-sizing: border-box;
-  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
