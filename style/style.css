@@ -27,6 +27,7 @@ body {
   padding: 5px;
   font-size: 12px;
   text-align: center;
+  text-transform: lowercase;
 }
 
 .login-form button {
