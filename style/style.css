@@ -6,9 +6,11 @@ body {
 }
 
 .login-page {
+  z-index: 1;
   width: 250px;
   padding: 10% 0 0;
   margin: auto;
+  max-width: 350px;
 }
 
 .login-form {
