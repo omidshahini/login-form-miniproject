@@ -46,7 +46,7 @@ body {
   transition: 0.5s;
 }
 
-.login-form a {
+.login-form p {
   cursor: pointer;
   margin-left: 3px;
   margin-right: 3px;
@@ -57,8 +57,23 @@ body {
   color: white;
 }
 
-.login-form p:hover {
+.login-form a:hover {
   color: #E91E63;
   transition: 0.5s;
   text-decoration: underline;
+}
+
+.modal {
+  color: #D50000;
+  background-color: #64DD17;
+  display: none;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 999;
+  right: 150px;
+  top: 25px;
+  position: absolute;
+  font-size: 20px;
+
 }
