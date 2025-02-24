@@ -46,6 +46,12 @@ body {
   transition: 0.5s;
 }
 
+.username-validation, .password-validation {
+  color: red;
+  text-align: center;
+  display: none;
+}
+
 .login-form p {
   cursor: pointer;
   margin-left: 3px;

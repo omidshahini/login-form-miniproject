@@ -13,10 +13,18 @@
     <div class="login-form">
       <input type="text"
       placeholder="username"
-      class="username"><br>
+      class="username"
+      onkeydown="usernameValid()">
+      <p class="username-validation">
+        must be at least 12 characters
+      </p>
       <input type="text"
       placeholder='password'
-      class="password"><br>
+      class="password"
+      onkeydown="passwordValid()">
+      <p class="password-validation">
+        must be at least 8 characters
+      </p>
       <button onclick="checkValid()" id="button">Login</button>
       <p class="message">Not Registered?
         <a>Create an Account</a>
