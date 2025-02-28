@@ -1,14 +1,20 @@
 
+let btnElem = document.querySelector('button')
 let userElem = document.querySelector('.username')
 let passElem = document.querySelector('.password')
 let modalElem = document.querySelector('.modal')
 let usernameElem = document.querySelector('.username-validation')
 let passwordElem = document.querySelector('.password-validation')
 
-let userElemValue = userElem.value
-let passElemValue = passElem.value
+
+
+
+btnElem.addEventListener('click', checkValid)
 
 function checkValid () {
+  let userElemValue = userElem.value
+  let passElemValue = passElem.value
+  
   if (userElemValue.length < 12 || passElemValue.length < 8) {
     console.log(userElemValue.length, passElemValue.length);
     modalElem.style.display = 'inline'
@@ -22,6 +28,9 @@ function checkValid () {
   }
 }
 
+
+userElem.addEventListener('keydown', usernameValid)
+
 function usernameValid() {
   if (userElem.value.length < 12) {
     usernameElem.style.display = 'block'
@@ -31,6 +40,9 @@ function usernameValid() {
     usernameElem.innerHTML = 'Valid UserName'
   }
 }
+
+
+passElem.addEventListener('keydown', passwordValid)
 
 function passwordValid() {
   if (passElem.value.length < 8) {
